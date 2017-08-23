@@ -6,7 +6,7 @@
  * Time: 09:58
  */
 
-namespace startegie\piece;
+namespace strategie\room;
 use strategie\room\access\AllAccess;
 
 class Kitchen extends Room

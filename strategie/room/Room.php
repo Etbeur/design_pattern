@@ -6,7 +6,7 @@
  * Time: 10:08
  */
 
-namespace startegie\piece;
+namespace strategie\room;
 
 
 use strategie\Robot;

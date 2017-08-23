@@ -6,9 +6,9 @@
  * Time: 11:34
  */
 
-use startegie\piece\Bedroom;
-use startegie\piece\Kitchen;
-use startegie\piece\Salon;
+use strategie\room\Bedroom;
+use strategie\room\Kitchen;
+use strategie\room\Salon;
 use strategie\cleanRobot;
 use strategie\CookRobot;
 use strategie\RoombaRobot;

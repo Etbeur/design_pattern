@@ -6,7 +6,7 @@
  * Time: 10:10
  */
 
-namespace startegie\piece;
+namespace strategie\room;
 
 
 use strategie\room\access\CleanAccess;

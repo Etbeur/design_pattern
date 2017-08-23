@@ -5,9 +5,10 @@
  * Date: 23/08/17
  * Time: 11:16
  */
+
 namespace adaptateur\calculette;
 
-class AdaptateurCalculette
+class AdaptateurCalculette implements ICalculette
 {
     private $oldCalc;
 

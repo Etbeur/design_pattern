@@ -6,7 +6,7 @@
  * Time: 10:16
  */
 
-namespace startegie\piece;
+namespace strategie\room;
 
 
 use strategie\room\access\IAccess;
