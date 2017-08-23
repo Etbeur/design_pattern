@@ -1,8 +1,12 @@
 <?php
 
 use decorateur\Chocolat;
+use decorateur\logger\LoggerFile;
+use decorateur\logger\LoggerHtml;
 use decorateur\supplement\Chantilly;
 use decorateur\supplement\LaitSoja;
+use strategie\CookRobot;
+use strategie\room\Salon;
 
 /**
  * Created by PhpStorm.
@@ -27,3 +31,8 @@ echo '<br/>';
 
 $chocoChantillySoja = new LaitSoja($chocoChantilly);
 echo 'un hyper ' . $chocoChantillySoja->getDescription() . ' à ' . $chocoChantillySoja->getPrix() . '€';
+
+$salon = new Salon();
+$salonLogHtml = new LoggerFile(new LoggerHTML($salon));
+$cuistot = new CookRobot();
+$salonLogHtml->autoriser($cuistot);
