@@ -12,5 +12,4 @@ namespace strategie\task;
 interface Itask
 {
     function execute();
-    function comunicate();
 }

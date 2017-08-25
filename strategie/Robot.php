@@ -13,6 +13,7 @@ abstract class Robot
 {
     private $task;
     private $comunication;
+    private $cancel;
 
     public function __construct(Itask $task){
         $this->task = $task;
@@ -24,5 +25,9 @@ abstract class Robot
 
     public function comunicate(){
         $this->comunication->comunicate();
+    }
+
+    public function cancel(){
+        $this->cancel->cancel();
     }
 }
